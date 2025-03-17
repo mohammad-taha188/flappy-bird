@@ -1,0 +1,43 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Courier New", Courier, monospace;
+}
+body {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.gameOver {
+  display: none;
+  position: fixed;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 80%;
+  box-shadow: 3px 6px 6px 0px rgba(207, 216, 220, 0.87);
+  border: 1px solid rgba(236, 240, 241, 0.87);
+  border-radius: 10px;
+  gap: 20px;
+  background-color: white;
+}
+button {
+  box-shadow: 3px 6px 6px 0px rgba(207, 216, 220, 0.87);
+  border: 1px solid rgba(236, 240, 241, 0.87);
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+button:active {
+  border: 1px solid rgba(207, 216, 220, 0.87);
+}
+*::selection {
+  background-color: #212121;
+  color: #fafafa;
+}
+img {
+  display: none;
+}
